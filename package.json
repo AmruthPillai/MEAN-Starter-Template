@@ -1,0 +1,27 @@
+{
+  "name": "mean-starter-template",
+  "version": "1.0.0",
+  "description": "This is a repo for a starter appliation for a Single Page MEAN Stack application. Just download and install and you have a good foundation for building application.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmruthPillai/MEAN-Starter-Template.git"
+  },
+  "keywords": [
+    "MEAN"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmruthPillai/MEAN-Starter-Template/issues"
+  },
+  "homepage": "https://github.com/AmruthPillai/MEAN-Starter-Template#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "method-override": "^2.3.6",
+    "mongoose": "^4.6.0"
+  }
+}

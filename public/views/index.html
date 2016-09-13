@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MEAN Starter Template</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <!-- JS -->
+    <script src="../libs/angular/angular.min.js"></script>
+    <script src="../libs/angular-route/angular-route.min.js"></script>
+
+    <!-- Angular -->
+    <script src="../js/controllers/MainCtrl.js"></script>
+    <script src="../js/controllers/PostCtrl.js"></script>
+    <script src="../js/services/PostService.js"></script>
+    <script src="../js/appRoutes.js"></script>
+    <script src="../assets/js/app.js"></script>
+</head>
+
+<body ng-app="sampleApp" ng-controller="MainController">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-header">
+            <a href="/" class="navbar-brand">MEAN Starter Template</a>
+        </div>
+
+        <ul class="nav navbar-nav">
+            <li><a href="/posts">Posts</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div ng-view></div>
+    </div>
+
+</body>
+</html>

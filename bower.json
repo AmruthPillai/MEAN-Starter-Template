@@ -1,0 +1,25 @@
+{
+  "name": "mean-starter-template",
+  "description": "This is a repo for a starter appliation for a Single Page MEAN Stack application. Just download and install and you have a good foundation for building application.",
+  "main": "server.js",
+  "authors": [
+    "Amruth Pillai <im.amruth@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "MEAN"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.6.3",
+    "animate.css": "^3.5.2",
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8"
+  }
+}
